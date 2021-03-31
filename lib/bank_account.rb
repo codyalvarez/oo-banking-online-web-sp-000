@@ -12,13 +12,12 @@ class BankAccount
     self.balance += amount
   end
 
-# <<<<<<< HEAD
-# =======
+
   def withdrawal(amount)
     self.balance -= amount
   end
 
-# >>>>>>> 113d5c8af93ec93b025344f87ad68eb16b14d10d
+
   def display_balance
     "Your balance is $#{balance}."
   end
