@@ -12,8 +12,8 @@ class BankAccount
     self.balance += amount
   end
 
-<<<<<<< HEAD
-=======
+# <<<<<<< HEAD
+# =======
   def withdrawal(amount)
     self.balance -= amount
   end
